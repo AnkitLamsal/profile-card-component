@@ -1,0 +1,82 @@
+body{
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    color:hsl(0, 0%, 59%);
+
+    background-position: 
+    left -35% top -10% ,
+    right -40% bottom 30%  !important;
+    background-repeat: no-repeat;
+}
+
+.container{
+    border-radius: 10px;
+    position: absolute;
+    left:10%;
+    top:20%;
+    display: flex;
+    flex-direction: column;
+    height:70%;
+    background-color: white;
+    width:80%;
+}
+.container_img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url(../images/bg-pattern-card.svg);
+    flex:1;
+}
+.container_profile{
+    flex:2;
+}
+.img_profile{
+    position:absolute;
+    top:20%;
+    left:30%;
+}
+
+.img_profile img{
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.name_age{
+    font-size: 14px;
+}
+
+.text_profile{
+    /* margin-top: 40px; */
+    padding: 70px 0 40px 90px;
+    border-bottom: solid 0.3px hsl(0, 0%, 59%);
+}
+
+.text_profile span{
+    color:black;
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.address{
+    font-size: 14px;
+    margin:0 auto;
+    padding-left: 40px;
+}
+
+.data{
+    display: flex;
+}
+
+.item{
+    padding-top:20px;
+    text-align: center;
+    flex:1;
+    font-size:14px ;
+}
+
+.item span{
+    color:black;
+    font-weight: 700;
+    font-size: 18px;
+    display:block;
+}
